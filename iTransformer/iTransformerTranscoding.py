@@ -9,8 +9,8 @@ from beartype.typing import Optional, Union, Tuple
 from einops import rearrange, reduce, repeat, pack, unpack
 from einops.layers.torch import Rearrange
 
-from iTransformer.attend import Attend
-from iTransformer.revin import RevIN
+from iTransformer.iTransformer.attend import Attend
+from iTransformer.iTransformer.revin import RevIN
 
 # helper functions
 
